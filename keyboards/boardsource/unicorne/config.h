@@ -2,10 +2,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #pragma once
 
-#define RGB_MATRIX_LED_COUNT 54
-#define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_SOLID_COLOR
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
-#define RGBLIGHT_SLEEP  // allows us to use rgblight_suspend() and rgblight_wakeup() in keymap.c
 #define RGBLIGHT_TIMEOUT 30000  // 30 seconds
 #define RGB_MATRIX_TIMEOUT 30000  // 30 seconds
 
